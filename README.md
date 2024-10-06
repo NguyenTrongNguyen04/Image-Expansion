@@ -62,7 +62,7 @@ Chúng tôi hoan nghênh sự đóng góp từ cộng đồng. Nếu bạn muố
 
 ## Liên Hệ 📧
 
-Nếu bạn có bất kỳ câu hỏi nào hoặc muốn liên hệ với nhóm phát triển, hãy gửi email về: **support@neuralix.com**
+Nếu bạn có bất kỳ câu hỏi nào hoặc muốn liên hệ với nhóm phát triển, hãy gửi email về: **nguyentrongnguyen.profile@gmail.com**
 
 ---
 
