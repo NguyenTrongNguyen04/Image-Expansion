@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='/static/style.css' rel='stylesheet'>  <!-- Đường dẫn đến CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> <!-- Thư viện Boxicons -->
+    <title>Neuralix Image Expansion</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html">
+            <img src="/static/img/logo.png" alt="Neuralix Logo">  <!-- Đường dẫn đến logo -->
+        </a>
+    </div>
+    
+    <div class="container">
+        <input type="file" id="file" accept="image/*" hidden>
+        <div class="img-area" data-img="">
+            <i class='bx bxs-cloud-upload icon'></i>
+            <h3>Upload Image</h3>
+            <p>Kích thước hình ảnh phải nhỏ hơn <span>2MB</span></p>
+        </div>
+        <button class="select-image">Chọn Hình ảnh</button>
+
+        <!-- Khu vực hiển thị nút sau khi xử lý thành công -->
+        <div id="action-buttons" style="margin-top: 20px; display: none;">
+            <button id="view-image">
+                <box-icon name='images' ></box-icon> Xem hình ảnh
+            </button>
+            <button id="download-image">
+                <box-icon name='cloud-download'></box-icon> Tải hình ảnh
+            </button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>  <!-- Đường dẫn đến JavaScript -->
+</body>
+</html>
